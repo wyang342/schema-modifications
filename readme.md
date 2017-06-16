@@ -60,7 +60,7 @@ Save your schema migration to a new file, `migrations.sql`. Write SQL statements
 3. The `social` column also has some dirty data, some customers have entered their social with dashes, others without, others with spaces. We've decided to store only the numbers of a users social. Which means all `social` values should be exactly 9 characters. Change the column type to allow only 9 characters.
 4. The `account_number` column has the same issue, the city's account numbers are 14 characters. Update the column type.
 5. Someone forgot to add a `line_2` column, add one.
-6. The 'zip` column is currently an integer, but we're loosing digits from customers with zip codes that start with zeros. Change the column type appropriately.
+6. The `zip` column is currently an integer, but we're loosing digits from customers with zip codes that start with zeros. Change the column type appropriately.
 7. Remove the `current_balance_cents` column. It was added for performance reasons, but there's a bug in the application code and it's often out of date.
 
 ### statements
@@ -69,5 +69,5 @@ Save your schema migration to a new file, `migrations.sql`. Write SQL statements
 2. We've updated our water meters and we can accurately measure fractional gallons. Update `gallons_used` to allow for two decimal places.
 3. Add a default value "payment_due" to `status`.
 
-### Final Steps
+## Final Steps
 Add your migration file into your database. Does it change your schema? Are the columns and tables updated? What do you notice about the relationship between migrations and the original SQL file? 
