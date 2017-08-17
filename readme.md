@@ -10,7 +10,7 @@ While it's preferable to modify application code instead of schema changes, a sc
 * interfaces that don't match how a user perceives the problem
 * limitations that prevent users from fully harnessing the application
 
-In this challenge you don't have to consider any existing application code, but schema changes often require careful coordination with application code. You're task is to update an existing schema that has a few bugs and limitations. You'll be renaming columns, changing column types and adding missing constraints.
+In this challenge you don't have to consider any existing application code, but schema changes often require careful coordination with application code. Your task is to update an existing schema that has a few bugs and limitations. You'll be renaming columns, changing column types and adding missing constraints.
 
 ## Current Schema
 
