@@ -53,6 +53,7 @@ Make sure that when you enter your database that you see everything you want to 
 
 Save your schema migration to a new file, `migrations.sql`. Write SQL statements to make the following modifications:
 
+Use the following link to assist you in writing queries for your migration file -> [ALTER TABLE statement](https://www.techonthenet.com/sql/tables/alter_table.php)
 ### customers
 
 1. Both columns `first` and `last` have ambiguous names. Rename them to `first_name` and `last_name`.
